@@ -1,0 +1,84 @@
+/*  '*' = means all/ applies to all elements */
+/*@import*/
+
+
+@font-face{
+	font-family: myFirstFont;
+	src: url(Dalek.tff);
+}
+
+*{
+	box-sizing: border-box;
+	font-family: myFirstFont;
+}
+
+body {
+	background-image: url('ocean.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+video{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 20px;
+}
+
+h1{
+	position: absolute;
+	display: inline-block;
+	top: 180px;
+	left: 620px;
+}
+
+.rectangle{
+	position: relative;
+	display: inline-block;
+	left: 590px;
+	top: 20px;
+	height: 50px;
+	width: 280px;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.main {
+	position: relative;
+	border-radius: 15px;
+	width: 750px;
+	height: 450px;
+}
+
+
+/*
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+	padding:0px;
+	margin: 0px;
+}
+
+
+
+body {
+	background-color: #222;
+	color: #fff;
+}
+
+#specialText {
+	color: #ff0072;
+}
+
+.highlight {
+	background-color: #dadb0d;
+}*/
