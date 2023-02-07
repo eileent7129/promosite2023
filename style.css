@@ -57,6 +57,13 @@ h1{
 	height: 450px;
 }
 
+.bottom-left{
+	position: relative;
+	bottom: 40px;
+	left: 380px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
 
 /*
 *{
